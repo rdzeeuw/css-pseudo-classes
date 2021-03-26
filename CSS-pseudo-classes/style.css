@@ -1,0 +1,51 @@
+/*
+a#link:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+a#active:active {
+    color: red;
+    font-style: italic;
+}
+
+a#visited:visited {
+    color: yellow;
+}
+
+.links input:focus {
+    color: green;
+    font-size: 20px;
+} 
+*/
+
+/*deel 2 navbar */
+
+.menu-container {
+    background: rgb(36, 16, 149);
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    padding: 10px 0 10px 0;
+}
+
+.menu-container a{
+    color: white;
+    padding: 10px;
+    font-family: Quicksand, sans-serif;
+    font-weight: bold;
+}
+
+.currentPage a {
+    background: rgb(94, 94, 115);
+}
+
+.menu-container a:hover{
+    background: lightblue;
+    color: rgb(36, 16, 149);
+}
+
+.navbar input:focus {
+    border: 2px solid aqua;
+}
